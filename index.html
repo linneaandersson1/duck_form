@@ -4,14 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
     <title>Document</title>
 </head>
 <body>
     <section>
-        <div class="form">
-            <label for="text">FULL NAME</label>
-            <input type="text">
+        <div class="form-container">
+            <div class="form-and-duck">
+                <div class="red-container">
+                    <div class="form">
+                        <form action="">
+                            <div class="name-container">
+                                <label for="text" class="label">FULL NAME</label>
+                                <input type="text" class="enter_info" placeholder="Your Name">
+                            </div>
+                            <div class="name-container">
+                                <label for="text" class="label">EMAIL</label>
+                                <input type="text" class="enter_info" placeholder="Your Email">
+                            </div> 
+                            <div class="name-container">
+                                <label for="text" class="label">MESSAGE REGARDING</label>
+                                <input type="text" class="enter_info" placeholder="Subject">
+                            </div> 
+                            <div class="name-container">
+                                <label for="text" class="label">MESSAGE</label>
+                                <input type="text" class="enter_info" placeholder="Your Message">
+                            </div>
+                        </form>
+                        <div class="message-btn"><button>SEND MESSAGE</button></div>
+                    </div>
+                </div>
+                <img class="duck" src="images/duck.png" alt="Duck images">
+            </div>
         </div>
     </section>
 </body>
 </html>
+
+<!-- <div class="form-container">
+            <form action="">
+                <label for="text">FULL NAME</label>
+                <input type="text" placeholder="Your name">
+            </form>
+        </div> -->

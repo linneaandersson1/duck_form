@@ -1,0 +1,143 @@
+body {
+    background-color: #9DBEBB;
+    color: #FFF;
+    font-family: sans-serif;
+}
+
+section {
+    background-color: #9DBEBB;
+    min-height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: #FFB039;
+    width: 955px;
+    height: 594px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-and-duck {
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    width: 402px;
+    height: 364px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.red-container {
+    background-color: #BE0909;
+    width: 612px;
+    height: 596px;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+    /* display: flex; */
+}
+
+.form {
+    width: 415px;
+    height: 362px;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.label {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.enter_info {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #9DBEBB;
+    background-color: #BE0909;
+    color: #FFF;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+input[type=text]:focus {
+    transform: scale(1.1);
+    background-color: #b92828;
+    position: relative;
+    left: 20px;
+}
+
+/* input:focus {
+    background-color: #9DBEBB;
+    border: 2px solid red;
+} */
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.534);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.3em;
+}
+
+/* ::placeholder::after {
+
+} */
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.duck {
+    position: relative;
+    top: 50px;
+    left: -250px;
+}
+
+.message-btn {
+    width: 500px;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 202px;
+    height: 48px;
+    background: #468189;
+    color: #FFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    border: 2px solid #468189;
+    /* position: relative;
+    top: 50px; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
